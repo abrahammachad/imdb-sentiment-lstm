@@ -2,6 +2,8 @@
 
 Deep Learning project implementing a **many-to-one LSTM** architecture for sentiment classification of movie reviews.
 
+![img.png](img.png)
+
 ## 📊 Dataset
 - **Source:** [Kaggle - IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 - **Original Size:** 50,000 reviews
@@ -55,6 +57,7 @@ imdb-sentiment-lstm/
 │   ├── y_train.npy                                                                 # Training labels
 │   └── y_val.npy                                                                   # Validation labels
 ├── doc/
+|   ├──imbd_sentiment_analysis_project_presentation_d18zgx_vadasz_csaba.pptx        # Hungarian presentation
 │   └── imbd_sentiment_analysis_project_documentation_d18zgx_vadasz_csaba.pdf       # Hungarian doc
 ├── models/
 │   ├── tokenizer.pickle                                                            # Keras tokenizer (vocab: 10K)
@@ -75,6 +78,7 @@ imdb-sentiment-lstm/
 │   ├── data_preprocess.py                                                          # Tokenization & padding
 │   └── model.py                                                                    # LSTM model architecture
 ├── .gitignore
+├── img.png                                                                         # # Self-generated AI image (DALL-E 3)
 ├── LICENSE                                                                         # MIT License
 ├── main.py                                                                         # Main entry point
 ├── README.md
